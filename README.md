@@ -1,10 +1,9 @@
-# Vokabelprogramm
-# Projekt-Dokumentation
-
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
+# LA1200
 
 Rabbit: Suganthasri, Hassani, Karrer, Bürgi
+
 ava
+
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
@@ -13,7 +12,7 @@ ava
 
 ## 1 Informieren
 
-### 1.1 Ihr Projekt
+### 1.1 Ihr Projekt sathana
 
 ✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
 
