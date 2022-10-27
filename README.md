@@ -86,4 +86,4 @@ Total:
 
 ## 6 Auswerten ava
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein. ava
