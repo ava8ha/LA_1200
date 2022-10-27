@@ -20,8 +20,9 @@ Dies ist ein Programm welches
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als User möchte ich ein Wort wel🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    | Eingabe Vokabular|  funktional    | Als User möchte ich, dass ich das Wort welches ich lernen will eingeben kann und die jeweilige Übersetzung danach. |
+| 2  |mehrere Eingaben machen|Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben könne und, dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
+|    |           |           |      |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
