@@ -14,14 +14,14 @@ ava
 
 ### 1.1 Vokabellernprogramm
 
-Dies ist ein Programm welches
+Dies ist ein Programm welches beim lernen von Vokabular hilft, indem es die Wörter welche man ins Programm eingetragen hat, abfragt und man dann die entsprechende Übersetzung dazu eingeben muss.
 
 ### 1.2 User Stories ava
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als User möchte ich ein Wort wel🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |voci eingeben|funtional| Als User möchte ich ein Wort und dessen übersetzung in der gewünschten Sprache eingeben können. |
+| 2   |  |      |  Als User möchte ich beliebig viele Wörter einegeben und gefragt werden ob ich noch eines eingeben will nach jedem Mal das ich schon habe.                                  |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
