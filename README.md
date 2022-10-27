@@ -14,14 +14,14 @@ ava
 
 ### 1.1 Vokabellernprogramm
 
-Dies ist ein Programm welches beim lernen von Vokabular hilft, indem es die Wörter welche man ins Programm eingetragen hat, abfragt und man dann die entsprechende Übersetzung dazu eingeben muss.
+Dies ist ein Programm welches
 
 ### 1.2 User Stories ava
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |voci eingeben|funtional| Als User möchte ich ein Wort und dessen übersetzung in der gewünschten Sprache eingeben können. |
-| 2   |  |      |  Als User möchte ich beliebig viele Wörter einegeben und gefragt werden ob ich noch eines eingeben will nach jedem Mal das ich schon habe.                                  |
+| 1    |                 |      | Als User möchte ich ein Wort wel🤷‍♂️ |
+| ...  |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -34,7 +34,10 @@ Dies ist ein Programm welches beim lernen von Vokabular hilft, indem es die Wör
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme nicola
+### 1.4 Diagramme Sathana
+![image](https://user-images.githubusercontent.com/111046257/198239363-194b2d74-c47c-4a1f-8865-942de8d61778.png)
+
+
 
 ✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
