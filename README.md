@@ -45,9 +45,9 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
-| 1.A  | 24.11 |           | Wörter eingeben  |               |
-| 2.A  | 24.11 |           | Wörter abfragen  |               |
-| 3.A  | 24.11 |           | Richtig/Falsch   |               |
+| 1.A  | 24.11 |  Nicola   | Wörter eingeben  |               |
+| 2.A  | 24.11 |  Ava/Nicola| Wörter abfragen  |               |
+| 3.A  | 24.11 |  Sathana  | Richtig/Falsch   |               |
 | 4.A  | 24.11 | Marco     | Resultat anzeige |               |
 
 Total: 
