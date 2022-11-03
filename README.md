@@ -14,17 +14,16 @@ ava
 
 ### 1.1 Vokabellernprogramm
 
-Dies ist ein Programm welches
+Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 
 ### 1.2 User Stories ava
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Eingabe Vokabular|  funktional    | Als User möchte ich, dass ich das Wort welches ich lernen will eingeben kann und die jeweilige Übersetzung danach. |
-| 2  |mehrere Eingaben machen|Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben könne und, dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
+| 2  |mehrere Eingaben machen|Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben können und dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
 |    |           |           |      |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle nicola
 
@@ -44,10 +43,12 @@ Dies ist ein Programm welches
 
 ## 2 Planen marco
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
+| ---- | ----- | --------- | ---------------- | ------------- |
+| 1.A  | 24.11 |           | Wörter eingeben  |               |
+| 2.A  | 24.11 |           | Wörter abfragen  |               |
+| 3.A  | 24.11 |           | Richtig/Falsch   |               |
+| 4.A  | 24.11 | Marco     | Resultat anzeige |               |
 
 Total: 
 
