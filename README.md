@@ -21,8 +21,15 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Eingabe Vokabular|  funktional    | Als User möchte ich, dass ich das Wort welches ich lernen will eingeben kann und die jeweilige Übersetzung danach. |
-| 2  |mehrere Eingaben machen|Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben können und dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
-|    |           |           |      |
+| 2  |mehrere Eingaben |Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben können und dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
+|  3  | richtig/falsch | Rand  |als User möchte ich, dass es mir, nach dem ich Übersetzt habe, anzeigt ob ich richtig war oder nicht   |
+|4 | korrektur | Qualität|Als User möchte ich, dass es mir die richtige schreibweise des Begriffes anzeigt | 
+|5| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich den gleichen Satz noch Mals üben will oder nicht| |
+|6|neuer Satz| Rand| Als User möcte ich, dass nach dem ich zum gleichen Vokabular noch Mals üben, nein gesagt habe , es mich dann fragt ob ich einen neuen Satz eingeben und üben will oder nicht|
+|7| beenden| Funktional |Als User möchte ich, dass nach dem ich zu "neuensatz einegeben?" nein gesagt habe, fertig bin und das Programm aufhört|
+|8| score| Qualität| als User möchte ich, dass am Ende des Üben, mir angezeigt wird wieviele Begriffe von wievielen ich richtig eingegeben habe.
+
+
 
 
 ### 1.3 Testfälle nicola
@@ -45,9 +52,7 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
-| 0.A  | 27.10 |           |                  |               |
 | 1.A  | 24.11 |  Nicola   | Wörter eingeben  |   45min       |
-
 | 2.A  | 24.11 |  Ava/Nicola| Wörter abfragen |               |
 | 3.A  | 24.11 |  Sathana  | Richtig/Falsch   |               |
 | 4.A  | 24.11 | Marco     | Resultat anzeige |               |
