@@ -7,14 +7,14 @@ ava
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |27.10 | 0.0.1   | Planung, organisierung, Programm konzeptioniert, Aufgaben/verantwortung verteilt, dokumentation angefangen, Arbeitspakete verteilt|
-|3.11|0.0.2|  Dokumentation                                                            |
+|3.11|0.0.2| User Stories und Arbeitspakete vervollständigt  |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
 ### 1.1 Vokabellernprogramm
 
-Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
+Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert. 
 
 ### 1.2 User Stories ava
 
