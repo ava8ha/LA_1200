@@ -7,7 +7,7 @@ ava
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |27.10 | 0.0.1   | Planung, organisierung, Programm konzeptioniert, Aufgaben/verantwortung verteilt, dokumentation angefangen, Arbeitspakete verteilt|
-|       | 0.0.2    |                                                              |
+|3.11|0.0.2|  Dokumentation                                                            |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -27,7 +27,8 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 |5| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich den gleichen Satz noch Mals üben will oder nicht| |
 |6|neuer Satz| Rand| Als User möcte ich, dass nach dem ich zum gleichen Vokabular noch Mals üben, nein gesagt habe , es mich dann fragt ob ich einen neuen Satz eingeben und üben will oder nicht|
 |7| beenden| Funktional |Als User möchte ich, dass nach dem ich zu "neuensatz einegeben?" nein gesagt habe, fertig bin und das Programm aufhört|
-|8| score| Qualität| als User möchte ich, dass am Ende des Üben, mir angezeigt wird wieviele Begriffe von wievielen ich richtig eingegeben habe.
+|8| Score| Qualität| als User möchte ich, dass am Ende des Üben, mir angezeigt wird wieviele Begriffe von wievielen ich richtig eingegeben habe.|
+|9|Abfragen|funktional | Als User möchte ich das Wort welches mir vorgegeben wird, übersetzt eingeben|
 
 
 
@@ -52,11 +53,12 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
-| 1.A  | 24.11 |  Nicola   | Wörter eingeben  |   3 Stunde    |
-| 1.A  | 24.11 |  Nicola   | weitere Wörter eingeben/Ja oder Nein  |   3 Stunde    |
-| 2.A  | 24.11 |  Ava/Nicola| Wörter abfragen |               |
-| 3.A  | 24.11 |  Sathana  | Richtig/Falsch   |               |
-| 4.A  | 24.11 | Marco     | Resultat anzeige |               |
+| 1.A  | 3.11 |  Nicola   | Wörter eingeben  |   45min       |
+| 9.B  | 3.11 |  Ava/Nicola| Wörter abfragen |   45 min   |
+|3.A
+| 3.A  | 10.11 |  Sathana  | Richtig/Falsch   |  45 min     |
+| 4.A  | 10.11 | Marco     | Resultat anzeige |   45 min         |
+
 
 Total: 
 
