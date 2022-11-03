@@ -22,13 +22,13 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    | Eingabe Vokabular|  funktional    | Als User möchte ich, dass ich das Wort welches ich lernen will eingeben kann und die jeweilige Übersetzung danach. |
 | 2  |mehrere Eingaben |Funktional/Rand|  Als User möcnhte ich beliebig viele Begriffe eingeben können und dass es mich fragt ob ich ein weiteres Wort einegen will nach jedem mal das ich habe.|
-|  3  | richtig/falsch | Rand  |als User möchte ich, dass es mir, nach dem ich Übersetzt habe, anzeigt ob ich richtig war oder nicht   |
-|4 | korrektur | Qualität|Als User möchte ich, dass es mir die richtige schreibweise des Begriffes anzeigt | 
-|5| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich den gleichen Satz noch Mals üben will oder nicht| |
-|6|neuer Satz| Rand| Als User möcte ich, dass nach dem ich zum gleichen Vokabular noch Mals üben, nein gesagt habe , es mich dann fragt ob ich einen neuen Satz eingeben und üben will oder nicht|
-|7| beenden| Funktional |Als User möchte ich, dass nach dem ich zu "neuensatz einegeben?" nein gesagt habe, fertig bin und das Programm aufhört|
+|3|Abfragen|funktional | Als User möchte ich das Wort welches mir vorgegeben wird, übersetzt eingeben|
+|  4 | richtig/falsch | Rand  |als User möchte ich, dass es mir, nach dem ich Übersetzt habe, anzeigt ob ich richtig war oder nicht   |
+|5 | korrektur | Qualität|Als User möchte ich, dass es mir die richtige schreibweise des Begriffes anzeigt | 
+|6| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich den gleichen Satz noch Mals üben will oder nicht| |
+|7|neuer Satz| Rand| Als User möcte ich, dass nach dem ich zum gleichen Vokabular noch Mals üben, nein gesagt habe , es mich dann fragt ob ich einen neuen Satz eingeben und üben will oder nicht|
 |8| Score| Qualität| als User möchte ich, dass am Ende des Üben, mir angezeigt wird wieviele Begriffe von wievielen ich richtig eingegeben habe.|
-|9|Abfragen|funktional | Als User möchte ich das Wort welches mir vorgegeben wird, übersetzt eingeben|
+|9| beenden| Funktional |Als User möchte ich, dass nach dem ich zu "neuensatz einegeben?" nein gesagt habe, fertig bin und das Programm aufhört|
 
 
 
@@ -45,19 +45,19 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert
 ### 1.4 Diagramme Sathana
 ![image](https://user-images.githubusercontent.com/111046257/198239363-194b2d74-c47c-4a1f-8865-942de8d61778.png)
 
-
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
-
 ## 2 Planen marco
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
-| 1.A  | 3.11 |  Nicola   | Wörter eingeben  |   45min       |
-| 9.B  | 3.11 |  Ava/Nicola| Wörter abfragen |   45 min   |
-|3.A
-| 3.A  | 10.11 |  Sathana  | Richtig/Falsch   |  45 min     |
-| 4.A  | 10.11 | Marco     | Resultat anzeige |   45 min         |
+| 1.A  | 3.11 |  Nicola   | Eingabe Vokabular |   45min       |
+|2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 3 min|
+| 3.C | 3.11 |  Ava| Abfragen Vokabular|   45 min   |
+|4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  35 min  |
+ |5.E | 3.11| Ava| Korrektur | 40 min|
+ |6.F| 10.11| Marco | wiederholen| 45 min|
+ |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 45 min|
+ | 8.I  | 10.11 | Marco  | Score |   45 min    |
+ |9.J| 10.11| Nicola| Beenden| 30 min|
 
 
 Total: 
