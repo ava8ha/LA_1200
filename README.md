@@ -51,13 +51,13 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert.
 | ---- | ----- | --------- | ---------------- | ------------- |
 | 1.A  | 3.11 |  Nicola   | Eingabe Vokabular |   45min       |
 |2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 3 min|
-| 3.C | 3.11 |  Ava| Abfragen Vokabular|   45 min   |
+*| 3.C | 3.11 |  Ava| Abfragen Vokabular|   45 min   |
 |4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  35 min  |
- |5.E | 3.11| Ava| Korrektur | 40 min|
- |6.F| 10.11| Marco | wiederholen| 45 min|
- |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 45 min|
+ *|5.E | 3.11| Ava| Korrektur | 40 min|
+ |6.F| 10.11| Ava | wiederholen| 45 min|
+* |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 45 min|
  | 8.I  | 10.11 | Marco  | Score |   45 min    |
- |9.J| 10.11| Nicola| Beenden| 30 min|
+ |9.J| 10.11| Nicola| Beenden| 30 min| 
 
 
 Total: 
@@ -75,8 +75,12 @@ progr. fragt user ob es die deutschen wörter lernen will oder die englischen. d
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  3.11  |  Nicola |       45 min        |   45 min  |
+| 2.B  |    3.11   | Nicola  |  3 min     |    6 min  |
+| 4.D | 3.11| Sathana | 35 min | 40 min |
+|6.F | 3.11| Ava | 45 min | 30 min |
+|8.I | 3.11| Marco| 45 min | 40 min|
+| 9.J | 3.11| Nicola| Beenden| 30 min | 20 min|
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
