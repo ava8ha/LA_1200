@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.Tracing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -20,8 +22,7 @@ namespace Voci
                 int j = 0;
                 int k = 0;
                 List<string> wort1 = new List<string>();
-                List<string> wort2 = new List<string>();
-                List<string> wort3 = new List<string>();
+                List<string> wort2 = new List<string>();                
 
                 Console.WriteLine("Voci lernen einfach gemacht\n\n");
                 do
@@ -37,19 +38,19 @@ namespace Voci
 
                 do
                 {
-                    foreach (string item in wort1)                        
+                    for (int l = 0; l < wort1.Count / Length; l++)                        
                     {
-                        Console.WriteLine("Was bedeutet " + item + " übersetzt?");
+                        Console.WriteLine("Was bedeutet " + wort1[l] + " übersetzt?");
                         string eingabe = Console.ReadLine();
 
-                        if (eingabe == item) //eig. wort2
+                        if (eingabe == wort2[l]) //eig. wort2
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("\n" + eingabe);
                             Console.ForegroundColor = ConsoleColor.White;
                             j++;
                         }
-                        else
+                        else if (eingabe != wort2[l])
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\n" + eingabe);
