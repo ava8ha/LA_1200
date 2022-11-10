@@ -37,19 +37,18 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.A  |Benutzer gibt soll Wörter eingeben und Computer speicher das|eingabe Wörter|Wörter speichern|
-| 2.A  |Computer fragt ob der Benutzer weitere Wörter eingeben will|Benutzer entscheidet: Ja/Nein| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
+| 1.A  |Benutzer gibt Wörter ein und das Programm speichert das|eingabe Wörter|Wörter speichern|
+| 2.A  |Programm fragt ob der Benutzer weitere Wörter eingeben will|Benutzer entscheidet: Ja/Nein| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
 | 3.A  |Benutzer wird von Computer die Wörter abgefragt|-| Was bedeutet .... übersetzt?|
 | 4.A und 5.A|Benutzer gibt das richige Wort ein|richtige Wort|Das Wort wird grün markiert|
 | 4.A und 5. A|Benutzer gibt das falsche Wort ein|falsche Wort|Das Wort wird rot markiert|
-| 6.A  |Benutzer kann entscheiden, ob er diese Wörter von vorne wieder spielen möchte|Ja|Computer fragt wieder die Wörter ab|
-| 6.B  |Benutzer kann entscheiden, ob er diese Wörter von vorne wieder spielen möchte|Nein|Computer zeigt das Ergebnis|
-| 1.1  |Benutzer hat alle Wörter mindestens einmal zu beantworten versucht|letztes Wort wurde übersetzt|Sie haben 78% aller Wörter richtig geraten|
-|      |              |          |                  |
-|      |              |          |                  |
-|      |              |          |                  |
-|      |              |          |                  |
-|      |              |          |                  |
+| 6.A  |Benutzer will das Spiel wiederholen |Ja|Computer fragt wieder die Wörter ab|
+| 6.B  |Benutzer will das Spiel nicht wieder|Nein|Möchten sie andere Voi-Satz erstellen|
+| 7.A  |Benutzer will neue Voci-Satz erstellen |Ja|Das Programm fangt von vorne an|
+| 8.A  |Benutzer will kein neue Voci-Satz erstellen |Nein|Das Programm zeigt den Ergebniss|
+| 8.B  |Benutzer hat alle Wörter mindestens einmal zu beantworten versucht|letztes Wort wurde übersetzt|Sie haben ..% aller Wörter richtig geraten|
+| 9.A  | Benutzer will das Spiel beenden| nein| Das Prorgamm schliesst|
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
