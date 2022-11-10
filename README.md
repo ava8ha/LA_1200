@@ -8,7 +8,7 @@ ava
 | ----- | ------- | ------------------------------------------------------------ |
 |27.10 | 0.0.1   | Planung, organisierung, Programm konzeptioniert, Aufgaben/verantwortung verteilt, dokumentation angefangen, Arbeitspakete verteilt|
 |3.11|0.0.2| User Stories und Arbeitspakete vervollständigt  |
-|       | 1.0.0   |                                                              |
+|10.11| 1.0.0 | Programm fast fertig, noch 1 Fehler zu beseitigen|
 
 ## 1 Informieren
 
