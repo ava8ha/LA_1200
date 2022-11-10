@@ -33,19 +33,23 @@ namespace Voci
                     antwort = Console.ReadLine();
                 } while (antwort == "ja");
 
-                foreach (var item in wort1) //abfragen funktioniert nicht
+                wort1.Add("Katze");
+                wort2.Add("cat");
+
+
+                foreach (string item in wort1) 
                 {
-                    Console.WriteLine("Was bedeutet " + wort1 + " übersetzt?");
+                    Console.WriteLine("Was bedeutet " + item + " übersetzt?");
                     eingabe = Console.ReadLine();
 
-                    if (eingabe == eingabe) //eig. wort2
+                    if (item == eingabe) //eig. wort2
                     {
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("\n" + eingabe);
                         Console.ForegroundColor = ConsoleColor.White;
                         j++;
                     }
-                    else
+                    else if (item != eingabe)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n" + eingabe);
@@ -54,7 +58,7 @@ namespace Voci
                     }
                 }
 
-                k = 100 / i * j;
+                k = (100 / i) * j;
                 Console.WriteLine("Sie haben alle Wörter geübt");
                 Console.WriteLine("Es waren " + j + " von " + i + " Wörtern richtig");
                 Console.WriteLine("Das sind " + k + "%");
