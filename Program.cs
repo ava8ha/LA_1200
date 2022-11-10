@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -37,25 +37,28 @@ namespace Voci
 
                 do
                 {
-                    foreach (string item in wort1)
+                    foreach (string item in wort1)                        
                     {
                         Console.WriteLine("Was bedeutet " + item + " übersetzt?");
-                        wort3.Add(Console.ReadLine());
+                        string eingabe = Console.ReadLine();
 
-                        if (wort3.Equals(wort2))
-                    {
+                        if (eingabe == item) //eig. wort2
+                        {
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine("\n" + wort3);
+                            Console.WriteLine("\n" + eingabe);
                             Console.ForegroundColor = ConsoleColor.White;
                             j++;
                         }
-                    else
+                        else
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("\n" + wort3);
+                            Console.WriteLine("\n" + eingabe);
+                            //Korrektur
                             Console.ForegroundColor = ConsoleColor.White;
                         }
                     }
+
+
 
                     k = (100 / i) * j;
                     Console.WriteLine("Sie haben alle Wörter geübt");
