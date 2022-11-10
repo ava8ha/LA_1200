@@ -37,8 +37,19 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.A  |Benutzer gibt soll Wörter eingeben und Computer speicher das|eingabe Wörter|Wörter speichern|
+| 2.A  |Computer fragt ob der Benutzer weitere Wörter eingeben will|Benutzer entscheidet: Ja/Nein| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
+| 3.A  |Benutzer wird von Computer die Wörter abgefragt|-| Was bedeutet .... übersetzt?|
+| 4.A und 5.A|Benutzer gibt das richige Wort ein|richtige Wort|Das Wort wird grün markiert|
+| 4.A und 5. A|Benutzer gibt das falsche Wort ein|falsche Wort|Das Wort wird rot markiert|
+| 6.A  |Benutzer kann entscheiden, ob er diese Wörter von vorne wieder spielen möchte|Ja|Computer fragt wieder die Wörter ab|
+| 6.B  |Benutzer kann entscheiden, ob er diese Wörter von vorne wieder spielen möchte|Nein|Computer zeigt das Ergebnis|
+| 1.1  |Benutzer hat alle Wörter mindestens einmal zu beantworten versucht|letztes Wort wurde übersetzt|Sie haben 78% aller Wörter richtig geraten|
+|      |              |          |                  |
+|      |              |          |                  |
+|      |              |          |                  |
+|      |              |          |                  |
+|      |              |          |                  |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
