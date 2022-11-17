@@ -9,95 +9,83 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
-
-
-namespace Voci
+namespace Vocabularytraining
 {
-    internal class Program
+    class Program
     {
+        static List<string> englishWords = new List<string>();
+        static List<string> germanWords = new List<string>();
+        static int correctGuesses = 0;
+        static int NumberOfWords = 0;
+        static int Percent = 0;
         static void Main(string[] args)
         {
-            string antwort = "ja";
-            string antwort2 = "ja";
-            do
+
+            static void inputWordsFromUser()
             {
-                int i = 0;
-                int j = 0;
-                int k = 0;
-                List<string> wort1 = new List<string>();
-                List<string> wort2 = new List<string>();
-
-
-
-
-
                 Console.WriteLine("Voci lernen einfach gemacht\n\n");
+                germanWords = new List<string>();
+                englishWords = new List<string>();
+                NumberOfWords= 0;
                 do
                 {
                     Console.Write("Geben sie ein Wort ein: ");
-                    wort1.Add(Console.ReadLine());
+                    englishWords.Add(Console.ReadLine());
                     Console.Write("Geben sie die Übersetzung ein: ");
-                    wort2.Add(Console.ReadLine());
-                    i++;
-                    Console.Write("Möchten sie weitere Wörter eingeben? [ja|nein]");
-                    antwort = Console.ReadLine();
-                } while (antwort == "ja");
-
-
-
-
-                do
+                    germanWords.Add(Console.ReadLine());
+                    NumberOfWords++;
+                    Console.Write("Möchten sie weitere Wörter eingeben? [ja|nein] ");
+                } while (Console.ReadLine() == "ja");
+            }
+                static void askWords()
                 {
-                    j = 0;
-                    for (int l = 0; l < wort1.Count; l++)
+                correctGuesses = 0;
+                    for (int l = 0; l < englishWords.Count; l++)
                     {
-                        Console.WriteLine("Was bedeutet " + wort1[l] + " übersetzt?");
-                        string eingabe = Console.ReadLine();
+                        Console.WriteLine("Was bedeutet " + englishWords[l] + " übersetzt?");
+                        string answer = Console.ReadLine();
 
-
-
-
-
-                        if (eingabe == wort2[l]) //eig. wort2
+                        if (answer == germanWords[l])
                         {
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine("\n" + eingabe);
-                            Console.WriteLine(wort2[l]);
+                            Console.WriteLine("\n" + answer);
+                            Console.WriteLine(germanWords[l]);
                             Console.ForegroundColor = ConsoleColor.White;
-                            j++;
+                            correctGuesses++;
+
                         }
-                        else if (eingabe != wort2[l])
+                        else if (answer != germanWords[l])
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("\n" + eingabe);
-                            Console.WriteLine(wort2[l]);
+                            Console.WriteLine("\n" + answer);
+                            Console.WriteLine(germanWords[l] + " wäre richtig gewesen");
                             Console.ForegroundColor = ConsoleColor.White;
                         }
                     }
 
+                }
 
-
-
-
-
-
-                    k = (100 / i) * j;
+                static void Score()
+                {
+                    Percent = (100 / NumberOfWords) * correctGuesses;
                     Console.WriteLine("Sie haben alle Wörter geübt");
-                    Console.WriteLine("Es waren " + j + " von " + i + " Wörtern richtig");
-                    Console.WriteLine("Das sind " + k + "%");
-                    Console.Write("Möchten sie die Wörter nochmal üben? [ja|nein]");
-                    antwort = Console.ReadLine();
-                } while (antwort == "ja");
+                    Console.WriteLine("Es waren " + correctGuesses + " von " + NumberOfWords + " Wörtern richtig");
+                    Console.WriteLine("Das sind " + Percent + "%");
+                }
 
+            do {
+                    inputWordsFromUser();
+                do
+                {
+                    askWords();
+                    Score();
+                    Console.Write("Möchten sie die Wörter nochmal üben? [ja|nein] ");
+                } while (Console.ReadLine() == "ja");
 
-
-
-
-                Console.Write("Möchten sie neue Wörter üben? [ja|nein]");
-                antwort2 = Console.ReadLine();
-            } while (antwort2 == "ja");
+                Console.Write("Möchten sie neue Wörter üben? [ja|nein] ");
+            } while (Console.ReadLine() == "ja");
         }
+        
     }
 }
 
