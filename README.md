@@ -7,7 +7,8 @@ Rabbit: Suganthasri, Hassani, Karrer, Bürgi
 | ----- | ------- | ------------------------------------------------------------ |
 |27.10 | 0.0.1   | Planung, organisierung, Programm konzeptioniert, Aufgaben/verantwortung verteilt, dokumentation angefangen, Arbeitspakete verteilt|
 |3.11|0.0.2| User Stories und Arbeitspakete vervollständigt  |
-|10.11| 1.0.0 | Programm fast fertig, noch 1 Fehler zu beseitigen|
+|10.11| 0.0.3 | Programm fast fertig, noch 1 Fehler zu beseitigen|
+|17.11| 0.0.4 | Fertigstellen Dokumentation, Lernbericht erstellen, Code aufsäubern|
 
 ## 1 Informieren
 
@@ -38,7 +39,7 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann A
 | ---- | ------------ | ------- | ----------------- |
 | 1.A  |Benutzer gibt Wörter ein und das Programm speichert das|Eingabe Wörter|Wörter speichern|
 | 2.A  |Programm fragt ob der Benutzer weitere Wörter eingeben will| Ja| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
-| 3.A  |Benutzer wird von Computer die Wörter abgefragt|nein| Was bedeutet .... übersetzt?|
+| 3.A  |Benutzer wird von Computer die Wörter abgefragt|-| Was bedeutet .... übersetzt?|
 | 4.A und 5.A|Benutzer gibt das richtige Wort ein|richtige Wort|Das Wort wird grün markiert|
 | 4.A und 5. A|Benutzer gibt das falsche Wort ein|falsche Wort|Das Wort wird rot markiert|
 | 6.A  |Benutzer will das Spiel wiederholen |Ja|Computer fragt wieder die Wörter ab|
