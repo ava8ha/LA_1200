@@ -2,7 +2,6 @@
 
 Rabbit: Suganthasri, Hassani, Karrer, Bürgi
 
-ava
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -14,7 +13,7 @@ ava
 
 ### 1.1 Vokabellernprogramm
 
-Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert. 
+Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann Ausg. 
 
 ### 1.2 User Stories ava
 
@@ -33,13 +32,13 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert.
 
 
 
-### 1.3 Testfälle nicola
+### 1.3 Testfälle 
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.A  |Benutzer gibt Wörter ein und das Programm speichert das|Eingabe Wörter|Wörter speichern|
-| 2.A  |Programm fragt ob der Benutzer weitere Wörter eingeben will|Benutzer entscheidet: Ja/Nein| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
-| 3.A  |Benutzer wird von Computer die Wörter abgefragt|-| Was bedeutet .... übersetzt?|
+| 2.A  |Programm fragt ob der Benutzer weitere Wörter eingeben will| Ja| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
+| 3.A  |Benutzer wird von Computer die Wörter abgefragt|nein| Was bedeutet .... übersetzt?|
 | 4.A und 5.A|Benutzer gibt das richtige Wort ein|richtige Wort|Das Wort wird grün markiert|
 | 4.A und 5. A|Benutzer gibt das falsche Wort ein|falsche Wort|Das Wort wird rot markiert|
 | 6.A  |Benutzer will das Spiel wiederholen |Ja|Computer fragt wieder die Wörter ab|
@@ -50,70 +49,52 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und korrigiert.
 | 9.A  | Benutzer will das Spiel beenden| nein| Das Programm schliesst|
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme Sathana
+### 1.4 Diagramme 
 ![image](https://user-images.githubusercontent.com/111046257/198239363-194b2d74-c47c-4a1f-8865-942de8d61778.png)
 
-## 2 Planen marco
+## 2 Planen 
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
 | 1.A  | 3.11 |  Nicola   | Eingabe Vokabular |   45min       |
-|2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 3 min|
-| 3.C | 3.11 |  Ava| Abfragen Vokabular|   45 min   |
-|4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  35 min  |
+|2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 5 min|
+| 3.C | 3.11 |  Ava| Abfragen Vokabular|   35 min   |
+|4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  10 min  |
  |5.E | 3.11| Ava| Korrektur | 40 min|
  |6.F| 10.11| Ava | wiederholen| 10 min|
- |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 45 min|
+ |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 50 min|
  | 8.I  | 10.11 | Marco  | Score |   45 min    |
  |9.J| 10.11| Nicola| Beenden| 30 min| 
 
 
-Total: 
+Total: 270 min
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
-## 3 Entscheiden alle
-progr. fragt user ob es die deutschen wörter lernen will oder die englischen. dann gibt das gegenteil an von dem was der user lernen will.
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
-
-## 4 Realisieren sathana
+## 4 Realisieren 
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |  3.11  |  Nicola |       45 min        |   45 min  |
-| 2.B  |    3.11   | Nicola  |  3 min     |    6 min  |
+| 2.B  |    3.11   | Nicola  |  5 min     |    10 min  |
 | 4.D | 3.11| Sathana | 35 min | 40 min |
+|5.E| 10.11 | Ava| 40 min| 55 min|
 |6.F | 3.11| Ava | 10 min | 10 min |
+|7.G| 10.11| Sathana| 50 min| 55 min| 
 |8.I | 3.11| Marco| 45 min | 40 min|
 | 9.J | 3.11| Nicola| Beenden| 30 min | 20 min|
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
-## 5 Kontrollieren marco
+## 5 Kontrollieren 
 
-### 5.1 Testprotokoll nicola
+### 5.1 Testprotokoll 
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
 | 1.1  |       |          |        |
 | ...  |       |          |        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+ Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-### 5.2 Exploratives Testen
 
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten ava
+## 6 Auswerten 
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein. ava
