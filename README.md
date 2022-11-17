@@ -105,6 +105,8 @@ Total: 270 min
 Alles Testfälle funktionieren wie sie sollten und es wurde alles erreicht was hätte erreicht werden sollen.
 
 
-## 6 Auswerten 
+## 6 Auswerten
+
+https://github.com/ava8ha/LA1200_Lernbericht/blob/main/README.md
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein. ava
