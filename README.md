@@ -59,15 +59,14 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann A
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
 | 1.A  | 3.11  |  Nicola   | Eingabe Wort | 45min |
-| 1.B  | 3.11  |  Nicola   | Eingabe Übersetzung | 45min |
-|2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 5 min|
-| 3.C | 3.11 |  Ava| Abfragen Vokabular|   35 min   |
-|4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  10 min  |
- |5.E | 3.11| Ava| Korrektur | 40 min|
- |6.F| 10.11| Ava | wiederholen| 10 min|
- |7.G| 10.11| Sathana| neuer Voci-Satz [y/n]| 50 min|
- | 8.I  | 10.11 | Marco  | Score |   45 min    |
- |9.J| 10.11| Nicola| Beenden| 30 min| 
+|2.A    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 5 min|
+| 3.A | 3.11 |  Ava| Abfragen Vokabular|   35 min   |
+|4.A  | 3.11 |  Sathana  | Richtig/Falsch   |  10 min  |
+ |5.A | 3.11| Ava| Korrektur | 40 min|
+ |6.A| 10.11| Ava | wiederholen| 10 min|
+ |7.A| 10.11| Sathana| neuer Voci-Satz [y/n]| 50 min|
+ | 8.A  | 10.11 | Marco  | Score |   45 min    |
+ |9.A| 10.11| Nicola| Beenden| 30 min| 
 
 
 Total: 270 min
@@ -77,13 +76,14 @@ Total: 270 min
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |  3.11  |  Nicola |       45 min        |   45 min  |
-| 2.B  |    3.11   | Nicola  |  5 min     |    10 min  |
-| 4.D | 3.11| Sathana | 35 min | 40 min |
-|5.E| 10.11 | Ava| 40 min| 55 min|
-|6.F | 3.11| Ava | 10 min | 10 min |
-|7.G| 10.11| Sathana| 50 min| 55 min| 
-|8.I | 3.11| Marco| 45 min | 40 min|
-| 9.J | 3.11| Nicola| Beenden| 30 min | 20 min|
+| 2.A  |    3.11   | Nicola  |  5 min     |    10 min  |
+| 3.A | 3.11  | Ava | 35min |  45min  |
+| 4.A | 3.11| Sathana | 10 min | 35 min |
+|5.A| 10.11 | Ava| 40 min| 55 min|
+|6.A | 3.11| Ava | 10 min | 10 min |
+|7.A| 10.11| Sathana| 50 min| 55 min| 
+|8.A | 3.11| Marco| 45 min | 40 min|
+| 9.A | 3.11| Nicola| Beenden| 30 min | 20 min|
 
 
 ## 5 Kontrollieren 
@@ -92,10 +92,17 @@ Total: 270 min
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 17.11 | Funktioniert | Nicola |
+| 2.1  | 17.11 | Funktioniert | Nicola |
+| 3.1  | 17.11 | Funktioniert | Nicola |
+| 4.1  | 17.11 | Funktioniert | Nicola |
+| 5.1  | 17.11 | Funktioniert | Nicola |
+| 6.1  | 17.11 | Funktioniert | Nicola |
+| 7.1  | 17.11 | Funktioniert | Nicola |
+| 8.1  | 17.11 | Funktioniert | Nicola |
+| 9.1  | 17.11 | Funktioniert | Nicola |
 
- Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Alles Testfälle funktionieren wie sie sollten und es wurde alles erreicht was hätte erreicht werden sollen.
 
 
 ## 6 Auswerten 
