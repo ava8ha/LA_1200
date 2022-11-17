@@ -25,7 +25,7 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann A
 |3|Abfragen|funktional | Als User möchte ich das Wort welches mir vorgegeben wird, übersetzt eingeben|
 |  4 | richtig/falsch | Rand  |als User möchte ich, dass es mir, nach dem ich Übersetzt habe, anzeigt ob ich richtig war oder nicht   |
 |5 | korrektur | Qualität|Als User möchte ich, dass es mir die richtige schreibweise des Begriffes anzeigt | 
-|6| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich den gleichen Satz noch Mals üben will oder nicht| |
+|6| wiederholen| Rand|Als User möchte ich, dass das Programm  ich fragt ob ich die gleichen Wörter nochmal üben will oder nicht| |
 |7|neuer Satz| Rand| Als User möcte ich, dass nach dem ich zum gleichen Vokabular noch Mals üben, nein gesagt habe , es mich dann fragt ob ich einen neuen Satz eingeben und üben will oder nicht|
 |8| Score| Qualität| als User möchte ich, dass am Ende des Üben, mir angezeigt wird wieviele Begriffe von wievielen ich richtig eingegeben habe.|
 |9| beenden| Funktional |Als User möchte ich, dass nach dem ich zu "neuensatz einegeben?" nein gesagt habe, fertig bin und das Programm aufhört|
@@ -37,18 +37,19 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann A
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.A  |Benutzer gibt Wörter ein und das Programm speichert das|Eingabe Wörter|Wörter speichern|
-| 2.A  |Programm fragt ob der Benutzer weitere Wörter eingeben will| Ja| Benutzer kann weitere Wörter eingeben oder Computer fragt die Wörter ab| 
-| 3.A  |Benutzer wird von Computer die Wörter abgefragt|-| Was bedeutet .... übersetzt?|
-| 4.A und 5.A|Benutzer gibt das richtige Wort ein|richtige Wort|Das Wort wird grün markiert|
-| 4.A und 5. A|Benutzer gibt das falsche Wort ein|falsche Wort|Das Wort wird rot markiert|
-| 6.A  |Benutzer will das Spiel wiederholen |Ja|Computer fragt wieder die Wörter ab|
-| 6.B  |Benutzer will das Spiel nicht wieder|Nein|Möchten sie andere Voi-Satz erstellen|
-| 7.A  |Benutzer will neue Voci-Satz erstellen |Ja|Das Programm fangt von vorne an|
-| 8.A  |Benutzer will kein neue Voci-Satz erstellen |Nein|Das Programm zeigt den Ergebnis|
-| 8.B  |Benutzer hat alle Wörter mindestens einmal zu beantworten versucht|letztes Wort wurde übersetzt|Sie haben ..% aller Wörter richtig geraten|
-| 9.A  | Benutzer will das Spiel beenden| nein| Das Programm schliesst|
-
+| 1.A  |Programm fragt nach Wort|"Hund"|Wort gespeichert|
+| 1.B  |Programm fragt nach Übersetzung|"dog"|Wort gespeichert|
+| 2.A  |Programm fragt nach weiteren Wörtern|"Ja"|Programm fragt nach Wort|
+| 2.B  |Programm fragt nach weiteren Wörtern| "Nein"|Programm fragt Wörter ab|
+| 3.A  |Alle Wörter eingegeben|-|Programm fragt nach übersetzung|
+| 4.A  |Programm fragt nach Übersetzung|"dog"|Wort wird grün markiert|
+| 4.B  |Programm fragt nach Übersetzung|"doh"|Wort wird rot markiert|
+| 5.A  |Programm fragt nach Übersetzung|"doh"|"dog" wäre richtig gewesen|
+| 6.A  |Programm fragt ob Wörter nochmal abgefragt werden sollen|"Ja"|Programm fragt Wörter nochmal ab|
+| 7.A  |Programm fragt ob Wörter nochmal abgefragt werden sollen|"Nein"|Programm fragt ob neue Wörter abgefragt werden sollen|
+| 8.A  |Alle Wörter abgefragt|-|"Sie hatten x von x Wörtern richtig. Das sind x%|
+| 9.A  |Programm fragt ob neue Wörter abgefragt werden sollen|"Ja"|Programm fragt nach Wort|
+| 9.B  |Programm fragt ob neue Wörter abgefragt werden sollen|"Nein"|Programm schliesst sich|
 
 ### 1.4 Diagramme 
 ![image](https://user-images.githubusercontent.com/111046257/198239363-194b2d74-c47c-4a1f-8865-942de8d61778.png)
