@@ -26,7 +26,7 @@ namespace Vocabularytraining
                 Console.WriteLine("Voci lernen einfach gemacht\n\n");
                 germanWords = new List<string>();
                 englishWords = new List<string>();
-                NumberOfWords= 0;
+                NumberOfWords= 0; 
                 do
                 {
                     Console.Write("Geben sie ein Wort ein: ");
@@ -73,7 +73,8 @@ namespace Vocabularytraining
                     Console.WriteLine("Das sind " + Percent + "%");
                 }
 
-            do {
+            do 
+            {
                     inputWordsFromUser();
                 do
                 {
