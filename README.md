@@ -58,7 +58,8 @@ Dies ist ein Programm welches eingegebene Wörter abfragt und die Lösung dann A
 
 | AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit |
 | ---- | ----- | --------- | ---------------- | ------------- |
-| 1.A  | 3.11 |  Nicola   | Eingabe Vokabular |   45min       |
+| 1.A  | 3.11  |  Nicola   | Eingabe Wort | 45min |
+| 1.B  | 3.11  |  Nicola   | Eingabe Übersetzung | 45min |
 |2.B    |3.11| Nicola  | Schlaufe zur wiederholten Eingabe Vokabular| 5 min|
 | 3.C | 3.11 |  Ava| Abfragen Vokabular|   35 min   |
 |4.D  | 3.11 |  Sathana  | Richtig/Falsch   |  10 min  |
